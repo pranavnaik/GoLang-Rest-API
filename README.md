@@ -6,14 +6,14 @@ Author: Pranav Naik
 
 ##Instructions:
 //************************************************************************************************************************
--The API uses the external package from `https://github.com/gorilla/mux/` for routing and parsing the incoming request.
--The API is congiured to run on port 8081
--The API has only one end point i.e `/check-inventory-levels/" and takes three parameters /{ItemName}/{ItemId}/{Quantity}/`
--example Local API address:  `http://localhost:8081/check-inventory-levels/coffee/2/601/` 
--The quantity to check againt is hardcoded to 100units for all items
--The response will be in JSON format telling whether the queried quanity is present or not..
--example API response => `[{"Id":2,"Name":"coffee","quantity":0,"IsAvailable":1}] `
- -where if `IsAvailable = 1` then we have that qanity in our stock.
+- The API uses the external package from `https://github.com/gorilla/mux/` for routing and parsing the incoming request.
+- The API is congiured to run on port 8081
+- The API has only one end point i.e `/check-inventory-levels/" and takes three parameters /{ItemName}/{ItemId}/{Quantity}/`
+- example Local API address:  `http://localhost:8081/check-inventory-levels/coffee/2/601/` 
+- The quantity to check againt is hardcoded to 100units for all items
+- The response will be in JSON format telling whether the queried quanity is present or not..
+- example API response => `[{"Id":2,"Name":"coffee","quantity":0,"IsAvailable":1}] `
+- where if `IsAvailable = 1` then we have that qanity in our stock.
   
 ##Usage:
 //************************************************************************************************************************
