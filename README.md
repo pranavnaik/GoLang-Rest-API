@@ -2,7 +2,6 @@
 Rest API in GoLang
 
 Author: Pranav Naik
-===================
 
 #Instructions:
 ==============
@@ -17,7 +16,7 @@ Author: Pranav Naik
   
 #Usage:
 =======
-Download or clone the repository to your GoWorkspace directory.
-Open and run the http server present in RestAPI folder
-Open the browser and fire the appropriate link for example "http://localhost:8081/check-inventory-levels/coffee/2/601/ "
-You should get the response in JSON format like [{"Id":2,"Name":"coffee","quantity":0,"IsAvailable":1}]
+- Download or clone the repository to your GoWorkspace directory.
+- Open and run the http server present in RestAPI folder
+- Open the browser and fire the appropriate link for example "http://localhost:8081/check-inventory-levels/coffee/2/601/ "
+- You should get the response in JSON format like `[{"Id":2,"Name":"coffee","quantity":0,"IsAvailable":1}]`
